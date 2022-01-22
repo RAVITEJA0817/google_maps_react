@@ -1,0 +1,133 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  padding: 30px;
+  background-color: #011627;
+  height: 40px;
+  color: #eaecef;
+}
+
+.sidenav{
+  background-color: #011627;
+  width: 240px;
+  position: absolute;
+  height: 95vh;
+  padding: 0 30px;
+  left: -100%;
+  transition: all 1s;
+}
+
+.sidenav.active{
+  left: 0;
+  z-index: 1;
+}
+
+.logo{
+  width: 25px;
+  margin-left: 105px;
+}
+
+ul{
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+ul li a{
+  color:#eaecef ;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+ul li a:hover{
+  background-color:#172b4d ;
+}
+
+header svg{
+  font-size: 30px;
+}
+
+header svg:hover{
+  cursor: pointer;
+}
+
+ul li a svg{
+  margin-right: 10px;
+}
+
+.btn{
+  margin-left: 85%;
+  background-color: #555555;
+  color: #eaecef;
+  border-radius: 5px;
+  padding: 7px;
+  position: absolute;
+  top: 3%;
+}
+
+.btn2{
+  margin-left: 77%;
+  background-color: #555555;
+  color: #eaecef;
+  border-radius: 5px;
+  padding: 7px;
+  position: absolute;
+  top: 3%;
+}
+header button:hover{
+  background-color: #e7e7e7;
+  cursor: pointer;
+  color: #011627;
+}
+
+.heading1{
+  position: absolute;
+  color: #011627;
+  background-color: antiquewhite;
+  display: inline-block;
+  top: 0%;
+  margin-left: 42%;
+  padding: 10px;
+  border-radius: 100px;
+  text-shadow: #555555 3px 3px 5px;
+}
+
+header h1 svg{
+  margin-right: 7px;
+}
+
+header button svg{
+  width: 50%;
+}
+
+footer{
+            position: relative;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background: grey;
+            text-align: center;
+            z-index: -1;
+}
+
+.maps{
+  position: relative;
+}
+
+/* .sbar{
+  z-index: 3;
+  position:relative;
+  background-color: violet;
+} */
